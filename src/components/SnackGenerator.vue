@@ -367,12 +367,14 @@
 	.save-btn,
 	.cancel-btn {
 		width: 45%;
+		padding: 4px 0px;
 		color: white;
 		font-family: "Patrick Hand SC", Helvetica, Arial, sans-serif;
 		font-size: 2em;
 		border-radius: 16px;
 		cursor: pointer;
 		transition: all 0.2s cubic-bezier(0.75, 1.77, 0.73, 0.84);
+		text-align: center;
 	}
 
 	.save-btn {
