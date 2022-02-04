@@ -2,18 +2,18 @@
 	"name": "snack",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://jtagliaferro74.github.io/can-i-have-a-snack",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
 		"lint": "vue-cli-service lint",
-		"deploy": "sh deploy.sh"
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
-		"@chenfengyuan/vue-countdown": "^2.0.0-rc",
 		"@smithalan2/vue-countdown": "^1.0.2",
 		"core-js": "^3.6.5",
+		"gh-pages": "^3.2.3",
 		"vue": "^3.0.0",
-		"vue-awesome-countdown": "^1.1.4",
 		"vue-confetti": "^2.2.2",
 		"vue-router": "^3.5.3",
 		"vuex": "^4.0.2",
