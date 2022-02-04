@@ -2,12 +2,12 @@
 	"name": "snack",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://canisnack.com",
+	"homepage": "https://canisnack.com/",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
 		"lint": "vue-cli-service lint",
-		"deploy": "gh-pages -d dist"
+		"deploy": "npm run build && gh-pages -d dist"
 	},
 	"dependencies": {
 		"@smithalan2/vue-countdown": "^1.0.2",
