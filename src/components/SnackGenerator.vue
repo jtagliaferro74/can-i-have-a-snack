@@ -410,7 +410,6 @@
 	}
 	.right-icon {
 		position: absolute;
-		transform: rotate(20deg);
 		right: 40px;
 		top: 400px;
 		z-index: 0;
@@ -423,7 +422,7 @@
 
 	.left-icon:hover,
 	.right-icon:hover {
-		transform: scale(1.2) translateY(-100px);
+		transform: scale(1.1) translateY(-80px);
 	}
 	#main-icon {
 		max-height: 300px;
