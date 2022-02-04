@@ -2,7 +2,7 @@
 	"name": "snack",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://jtagliaferro74.github.io/can-i-have-a-snack",
+	"homepage": "https://canisnack.com",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
