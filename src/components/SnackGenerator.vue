@@ -327,6 +327,7 @@
 		transition: all 0.2s cubic-bezier(0.75, 1.77, 0.73, 0.84);
 		z-index: 10;
 		width: 280px;
+		margin-bottom: 16px;
 	}
 	#main-btn:hover {
 		background-color: #d68454;

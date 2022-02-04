@@ -8,6 +8,9 @@
 				d="M0,224L60,197.3C120,171,240,117,360,128C480,139,600,213,720,218.7C840,224,960,160,1080,144C1200,128,1320,160,1380,176L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
 			></path>
 		</svg>
+		<footer class="footer">
+			<small>Copyright &copy; {{ currentYear }} Joe Tagliaferro</small>
+		</footer>
 	</div>
 </template>
 
@@ -21,6 +24,12 @@
 		},
 		created() {
 			document.title = "Can I Have a Snack?";
+			this.currentYear = new Date().getFullYear();
+		},
+		data() {
+			return {
+				currentYear: 2021,
+			};
 		},
 	};
 </script>
@@ -42,15 +51,24 @@
 		position: relative;
 	}
 
-	/* html {
-		height: 100vh;
-	} */
-
 	.curve {
 		border: none;
 		position: fixed;
 		bottom: 0;
 		width: 100%;
 		z-index: -10;
+	}
+
+	.footer {
+		color: #535c53;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 12px;
+		font-family: Arial, sans-serif;
+		position: fixed;
+		bottom: 4px;
+		text-align: center;
 	}
 </style>
